@@ -26,6 +26,10 @@ connectCloudinary();
 app.use(express.json());
 app.use(cors());
 
+// https://health-care-system-j57w.vercel.app/
+
+
+
 // Existing APIs
 app.use("/api/user", userRouter);
 app.use("/api/admin", adminRouter);
